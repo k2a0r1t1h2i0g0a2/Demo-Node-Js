@@ -5,7 +5,7 @@ import {
   createEmpDetail,
   updateEmpDetail,
   deleteEmpDetail,
-} from "../controllers/employee.controller.js";
+} from "../Controllers/employee.controller.js";
 const router = express.Router()
 
 router.get('/data', employeesDetail)
